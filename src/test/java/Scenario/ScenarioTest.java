@@ -31,7 +31,7 @@ public class ScenarioTest extends Base {
         steps.clickElement("td[aria-label='Choose Pazartesi, 1 Nisan 2024 as your check-in date. It’s available.'] span[class='helpers__CalenderDay-sc-1l68pts-0 eUSbRE']"); // click first day of April 2024
         steps.waitSecond(2);
 
-        System.out.println("THERE IS A BUG HERE ON THE WEB SITE. CAUSE OF THE LIMITED TIME I HAD, I COULDN'T FIX THE PROBLEM HERE.");
+        System.out.println("do it again later");
 
         steps.clickElement("td[aria-label='Choose Pazar, 7 Nisan 2024 as your check-in date. It’s available.']"); //click 7th of April
         steps.clickElement("button[type='submit']"); // click Apply button
